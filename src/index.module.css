@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blueBg {
+    background: linear-gradient(90deg, #E9F6FF, #E9F6FF, #FFFFFF, #E9F6FF, #E9F6FF);
+}
+
+.whiteBg {
+    background-color: white;
+}
+
+.darkerBlueBg {
+    background-color: #29434C;
+}

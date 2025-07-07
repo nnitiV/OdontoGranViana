@@ -1,0 +1,89 @@
+.aboutSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70vw;
+    margin: 6rem auto 8rem;
+    text-transform: uppercase;
+    font-family: "Inter", sans-serif;
+}
+
+.main {
+    width: 30vw;
+}
+
+.main h2 {
+    color: #5A666B;
+    font-size: 1.25rem;
+}
+
+.main hr {
+    width: 10vw;
+    margin: -.5rem 0;
+    height: .25vh;
+    border: none;
+    background-color: #D8BD64;
+}
+
+.main h1 {
+    font-size: 1.75rem;
+}
+
+.main p {
+    width: 23vw;
+    color: #7F8186;
+    text-align: justify;
+    text-transform: none;
+    margin-top: -.8rem;
+    font-weight: bold;
+}
+
+.agende {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 25vh;
+    border-radius: .25rem;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #29434C;
+    color: #D8BD64;
+}
+
+.agende hr {
+    width: 7vw;
+    height: .25vh;
+    border: none;
+    background-color: #D8BD64;
+    margin-top: -.25rem;
+    margin-bottom: 2.5rem;
+}
+
+.agende button {
+    background-color: #2CCD58;
+    border: none;
+    outline: none;
+    width: 15vw;
+    padding: 0 .25rem;
+    font-size: 1.35rem;
+    border-radius: .25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    transition: all .3s ease;
+}
+
+.agende button:hover {
+    background-color: #19d44b;
+    cursor: pointer;
+}
+
+.agende button i {
+    margin-right: .9rem;
+    font-size: 2rem;
+    color: #04AB59;
+}

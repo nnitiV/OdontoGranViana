@@ -1,0 +1,42 @@
+.welcomeSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+    margin: 0 auto;
+    padding-bottom: 6rem;
+    text-transform: uppercase;
+    font-family: "Inter", sans-serif;
+}
+
+.main {
+    width: 30vw;
+    margin-left: 2.5rem;
+}
+
+.main h1 {
+    font-size: 1.75rem;
+}
+
+.main hr {
+    width: 15vw;
+    height: .25vh;
+    border: none;
+    background-color: #D8BD64;
+}
+
+.main p {
+    color: #7F8186;
+    text-align: justify;
+    text-transform: none;
+    font-weight: bold;
+}
+
+.video video {
+    width: fit-content;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    margin-right: 6.5rem;
+    height: 45vh;
+}

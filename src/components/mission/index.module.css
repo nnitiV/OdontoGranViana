@@ -1,0 +1,52 @@
+.mission {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65vw;
+    padding-top: 12rem;
+    margin: 0 auto;
+    position: relative;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    z-index: 0;
+}
+
+.mission img {
+    width: 17vw;
+    margin-bottom: -1.85rem;
+    margin-left: 9rem;
+}
+
+.main {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -12rem;
+}
+
+.main h2 {
+    color: #5A666B;
+    font-size: 1.25rem;
+}
+
+.main hr {
+    width: 9vw;
+    margin: -1rem 0 1rem;
+    height: .25vh;
+    border: none;
+    background-color: #D8BD64;
+}
+
+.main h1 {
+    font-size: 1.75rem;
+}
+
+.main p {
+    width: 23vw;
+    color: #7F8186;
+    text-transform: none;
+    font-weight: bold;
+    text-align: center;
+}

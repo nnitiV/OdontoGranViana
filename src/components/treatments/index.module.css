@@ -1,0 +1,114 @@
+.treatmentsSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    position: relative;
+    z-index: 0;
+    padding: 2rem 0 8rem;
+}
+
+.main h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    color: #A89946;
+}
+
+.main hr {
+    width: 13vw;
+    background-color: #D8BD64;
+    height: .5vh;
+    border: none;
+    margin-bottom: 3.81rem;
+}
+
+.treatmentsDiv {
+    width: 45vw;
+    display: flex;
+    background-color: #29434C;
+    color: white;
+    padding: none;
+    overflow: hidden;
+}
+
+.treatmentsOptions {
+    color: #A89946;
+    width: 14vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.treatmentsOptions h3 {
+    margin: 0;
+    padding: 1.5rem;
+    transition: all .3s ease;
+}
+
+.treatmentsOptions h3:hover {
+    background-color: #355c69;
+    cursor: pointer;
+}
+
+.treatmentsOptions .active {
+    color: white;
+    background-color: #355c69;
+}
+
+.treatmentExplanation {
+    width: 20vw;
+    padding: 5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.treatmentExplanation h2 {
+    color: #FBA300;
+    text-shadow: 0 0 8px rgba(25, 25, 25, 1);
+}
+
+.treatmentExplanation div {
+    display: flex;
+    justify-content: center;
+}
+
+.treatmentExplanation div p {
+    width: 14vw;
+    text-align: justify;
+    color: #E8EFF2;
+    font-family: "Inria Serif", serif;
+    margin-top: -1rem;
+}
+
+.treatmentExplanation img {
+    position: absolute;
+    top: 52%;
+    left: 64.5%;
+    border-radius: 1rem;
+    z-index: 999;
+}
+
+.treatmentExplanation button {
+    background-color: transparent;
+    border: transparent;
+    outline: transparent;
+    color: #A89946;
+    width: 15vw;
+    padding: 1rem .25rem;
+    font-size: 1rem;
+    border: 1px solid #A89946;
+    transition: ease .3s all;
+    font-weight: bold;
+    border-radius: .25rem;
+}
+
+.treatmentExplanation button:hover {
+    background-color: #A89946;
+    cursor: pointer;
+    color: white;
+}

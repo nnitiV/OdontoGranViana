@@ -1,0 +1,55 @@
+.header {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Inria Serif", serif;
+    width: 70vw;
+    margin: 0 auto;
+    padding: 5rem;
+}
+
+.header img {
+    width: 15vw;
+    margin-top: -4rem;
+
+}
+
+.header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 35vw;
+    font-weight: bold;
+    color: #2B2B36;
+    font-size: 1.25rem;
+}
+
+.header nav ul li {
+    text-shadow: 0 0 12px rgba(25, 25, 25, 0.5);
+}
+
+
+.header nav ul li:hover {
+    cursor: pointer;
+    color: #131331;
+}
+
+.header button {
+    width: fit-content;
+    padding: .75rem 2.25rem;
+    background-color: #D8BD64;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: .25rem;
+    box-shadow: 0 0 12px rgba(25, 25, 25, 0.2);
+    transition: all .3s ease;
+}
+
+.header button:hover {
+    cursor: pointer;
+    background-color: #cfb55f;
+}
