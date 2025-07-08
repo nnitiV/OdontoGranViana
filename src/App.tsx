@@ -12,9 +12,13 @@ import styles from "./index.module.css";
 function App() {
 	return (
 		<>
-			<section className={styles.blueBg}>
-				<Header />
-				<AboutSection />
+			<section className={`${styles.blueBg} ${styles.bgImg}`}>
+				<div className={styles.cover}>
+					<Header />
+					<AboutSection />
+				</div>
+			</section>
+			<section className={`${styles.blueBg}`}>
 				<WelcomeSection />
 			</section>
 			<section className={styles.whiteBg}>
@@ -32,6 +36,7 @@ function App() {
 			<section className={styles.darkerBlueBg}>
 				<CommentsSection />
 			</section>
+			<div className={styles.noCovenant}>Não aceitamos convênios</div>
 			<Footer />
 		</>
 	);

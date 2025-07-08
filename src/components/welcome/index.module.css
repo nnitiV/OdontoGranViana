@@ -4,24 +4,27 @@
     align-items: center;
     width: 80vw;
     margin: 0 auto;
-    padding-bottom: 6rem;
+    padding: 6rem;
     text-transform: uppercase;
     font-family: "Inter", sans-serif;
 }
 
 .main {
     width: 30vw;
-    margin-left: 2.5rem;
 }
 
 .main h1 {
-    font-size: 1.75rem;
+    font-size: 2vw;
+    color: #31312f;
 }
 
 .main hr {
     width: 15vw;
     height: .25vh;
     border: none;
+    margin-left: 0;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
     background-color: #D8BD64;
 }
 
@@ -37,6 +40,33 @@
     border-radius: .5rem;
     border: none;
     outline: none;
-    margin-right: 6.5rem;
+    margin-right: 8.5vw;
     height: 45vh;
+    box-shadow: 0 0 8px rgb(0, 0, 0);
+}
+
+@media (max-width: 1200px) {
+    .welcomeSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main h1 {
+        text-align: center;
+    }
+
+    .main hr {
+        margin: 0 auto 2rem;
+    }
+
+    .main p {
+        display: none;
+    }
+
+    .video video {
+        margin: 0;
+        margin-top: 1rem;
+    }
 }

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 65vw;
+    width: 75vw;
     padding-top: 12rem;
     margin: 0 auto;
     position: relative;
@@ -12,7 +12,7 @@
 }
 
 .mission img {
-    width: 17vw;
+    width: 20vw;
     margin-bottom: -1.85rem;
     margin-left: 9rem;
 }
@@ -26,9 +26,9 @@
     margin-top: -12rem;
 }
 
-.main h2 {
-    color: #5A666B;
-    font-size: 1.25rem;
+.main h1 {
+    font-size: 2vw;
+    text-shadow: 0 0 8px rgba(25, 25, 25, 0.5);
 }
 
 .main hr {
@@ -39,9 +39,6 @@
     background-color: #D8BD64;
 }
 
-.main h1 {
-    font-size: 1.75rem;
-}
 
 .main p {
     width: 23vw;
@@ -49,4 +46,31 @@
     text-transform: none;
     font-weight: bold;
     text-align: center;
+}
+
+@media (max-width: 1400px) {
+    .mission {
+        padding: 4rem 0;
+        width: 60vw;
+        margin-right: 22.5vw;
+    }
+
+    .main {
+        margin-top: 0;
+    }
+
+    .main h1 {
+        font-size: 2vw;
+        margin-bottom: 2rem;
+    }
+
+    .main p {
+        width: fit-content;
+        font-size: 1.35vw;
+    }
+
+    .mission img {
+        width: 30vw;
+        margin: 0;
+    }
 }

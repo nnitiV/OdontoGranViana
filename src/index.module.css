@@ -1,11 +1,24 @@
+/* Base Styles (Mobile First) */
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
 .blueBg {
     background: linear-gradient(90deg, #E9F6FF, #E9F6FF, #FFFFFF, #E9F6FF, #E9F6FF);
+}
+
+.cover {
+    background-color: rgba(27, 30, 31, 0.85);
+}
+
+.bgImg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("office-horizontal.jpg");
 }
 
 .whiteBg {
@@ -14,4 +27,16 @@ body {
 
 .darkerBlueBg {
     background-color: #29434C;
+}
+
+.noCovenant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5vw;
+    font-size: 1.5vw;
+    background: linear-gradient(90deg, rgb(119, 114, 78), rgb(109, 103, 68), rgb(92, 87, 55), rgb(109, 103, 68), rgb(119, 114, 78));
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
 }

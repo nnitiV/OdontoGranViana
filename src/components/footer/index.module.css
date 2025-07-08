@@ -1,21 +1,21 @@
 .footer {
     background: linear-gradient(90deg, rgba(233, 219, 142, 1), rgba(233, 219, 142, .85), rgba(233, 219, 142, .7), rgba(233, 219, 142, .85), rgba(233, 219, 142, 1));
-    padding: 12rem 6rem 6rem;
+    padding: 8vw;
 }
 
 
 .content {
-    width: 60vw;
     margin: 0 auto;
+    padding: 0 4vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 img {
-    width: 15vw;
+    width: 25vw;
     margin: 0;
-    margin-top: -5.5rem;
+    margin-top: -5.5vw;
 }
 
 .content div div {
@@ -25,9 +25,9 @@ img {
 }
 
 .content div div i {
-    margin-top: .1rem;
-    margin-right: 1rem;
-    font-size: 1.5rem;
+    margin-top: -.25vw;
+    margin-right: 1vw;
+    font-size: 1.75vw;
 }
 
 .content div div div {
@@ -40,13 +40,13 @@ img {
 
 .content div div div h2, .content div div div p {
     margin: 0;
+    font-size: 1.15vw;
 }
 
 .content div div div h2 {
     color: #3C4D60;
     text-transform: uppercase;
-    font-size: 1.25rem;
-    margin-bottom: .5rem;
+    margin-bottom: .5vw;
 }
 
 .content div div div p {
@@ -54,4 +54,32 @@ img {
     text-transform: none;
     font-weight: bold;
     font-family: "Inter", sans-serif;
+}
+
+.content div div div i {
+    color: white;
+}
+
+@media (max-width: 995px) {
+    .footer {
+        padding-bottom: 1vw;
+    }
+
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 6vw;
+        margin-bottom: 0;
+    }
+
+    .content div div div h2 {
+        margin: 0 auto;
+    }
 }
