@@ -13,6 +13,7 @@
 
 .buttons {
     position: absolute;
+    margin-top: 10vw;
     width: 80vw;
     display: flex;
     justify-content: space-between;
@@ -73,15 +74,16 @@
 }
 
 .controls {
-    width: 8vw;
+    width: fit-content;
+    gap: 1vw;
     margin-top: 4vw;
     display: flex;
     justify-content: space-between;
 }
 
 .controls .control {
-    width: 1vw;
-    height: 1vw;
+    width: 2vw;
+    height: 2vw;
     border-radius: 16rem;
     background-color: #29434C;
 }
@@ -89,4 +91,52 @@
 .controls .control:hover, .controls .control.active {
     background-color: #39606d;
     cursor: pointer;
+}
+
+@media (max-width: 1400px) {
+    .main h1 {
+        font-size: 3vw;
+    }
+
+    .buttons button {
+        font-size: 3.5vw;
+        padding: .5vw 1.5vw;
+    }
+
+    .carousel img {
+        flex: 0 0 25vw;
+        margin-right: 5vw;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .main h1 {
+        font-size: 5vw;
+    }
+
+    .buttons {}
+
+    .buttons button {
+        font-size: 5vw;
+        padding: .75vw 2.1vw;
+    }
+
+    .carousel {
+        width: 45vw;
+    }
+
+    .carousel img {
+        flex: 0 0 40vw;
+        margin-right: 5vw;
+    }
+
+    .controls {
+        width: 50vw;
+    }
+
+    .controls .control {
+        width: 3.5vw;
+        height: 3.5vw;
+    }
 }

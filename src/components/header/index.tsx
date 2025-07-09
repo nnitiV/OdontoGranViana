@@ -3,9 +3,13 @@ import styles from "./index.module.css";
 
 export default function Header() {
 	const [isActive, setIsActive] = useState<boolean>(false);
+	const redirectToWhatsapp = () =>
+		window.location.replace(
+			"https://wa.me/+5511920183075?text=Ol%C3%A1.%20Vim%20do%20Google%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o.%20"
+		);
 	return (
 		<header className={styles.header}>
-			<img src="logo_site.webp" alt="Site logo" />
+			<img src="logo_site.png" alt="Site logo" />
 			<nav className={styles.fullNavbar}>
 				<ul>
 					<li>
@@ -25,7 +29,9 @@ export default function Header() {
 					</li>
 				</ul>
 			</nav>
-			<button className={styles.fullNavbar}>Contato</button>
+			<button className={styles.fullNavbar} onClick={redirectToWhatsapp}>
+				Contato
+			</button>
 			<div className={styles.sideMenu}>
 				<i className={`fa-solid fa-bars`} onClick={() => setIsActive(true)}></i>
 				<div
@@ -52,7 +58,7 @@ export default function Header() {
 								<a href="#depoimentos">Depoimentos</a>
 							</li>
 						</ul>
-						<button>Contato</button>
+						<button onClick={redirectToWhatsapp}>Contato</button>
 					</nav>
 				</div>
 			</div>

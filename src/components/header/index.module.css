@@ -4,9 +4,8 @@
     align-items: center;
     justify-content: space-between;
     font-family: "Inria Serif", serif;
-    width: 90vw;
     margin: 0 auto;
-    padding: 5rem;
+    padding: 7rem;
 }
 
 .sideMenu {
@@ -27,11 +26,6 @@
     font-size: 1.25rem;
 }
 
-.header nav ul li {
-    text-shadow: 0 0 12px rgba(25, 25, 25, 0.5);
-
-}
-
 .header nav ul li:hover {
     cursor: pointer;
     color: #131331;
@@ -39,14 +33,13 @@
 
 .header nav ul li a {
     text-decoration: none;
-    text-shadow: 0 0 8px rgba(212, 212, 221, 0.452);
     color: #d4d4dd;
 }
 
 .header button {
     width: fit-content;
     padding: .75rem 2.25rem;
-    background-color: #D8BD64;
+    background-color: #948142;
     border: none;
     outline: none;
     color: white;
@@ -64,15 +57,19 @@
 
 @media (max-width: 1450px) {
     .header {
-        padding: 5rem 0;
+        padding: 5rem;
+        padding-left: 8rem;
+        margin: 0;
+
     }
 
     .header nav ul {
-        font-size: 1rem;
+        font-size: 1.25rem;
+        padding-left: 0;
     }
 
     .header button {
-        font-size: 1rem;
+        font-size: 1.25rem;
     }
 
     .header img {
@@ -80,13 +77,14 @@
     }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1350px) {
     .header {
         align-items: center;
+        padding-right: 8rem;
     }
 
     .header img {
-        width: 30vw;
+        width: 25vw;
     }
 
     .fullNavbar {
@@ -95,7 +93,7 @@
 
     .sideMenu {
         display: block;
-        font-size: 3.5rem;
+        font-size: 4rem;
         color: #9c8846;
     }
 
@@ -120,7 +118,6 @@
     .wrapper.active {
         opacity: 1;
         visibility: visible;
-        /* Mostra elemento */
     }
 
 
@@ -132,7 +129,6 @@
         background-color: #2B2B36;
         border-radius: .5rem;
         padding: 2rem;
-
         opacity: 0;
         visibility: hidden;
         transform: translateX(20px);

@@ -3,9 +3,15 @@ import styles from "./index.module.css";
 
 export default function DentalClinicSection() {
 	const [curr, setCurr] = useState<number>(0);
-	const arrayOfImages = Array(10).fill(1);
-	const visibleImages = 3;
-	const step = 3;
+	const arrayOfImages = [
+		"waitingRoom.jpeg",
+		"hall.jpeg",
+		"office.jpeg",
+		"parking.jpeg",
+	];
+	const visibleImages =
+		window.innerWidth <= 992 ? 1 : window.innerWidth <= 1400 ? 2 : 3;
+	const step = window.innerWidth <= 992 ? 1 : window.innerWidth <= 1400 ? 2 : 3;
 	const totalPages = Math.ceil(arrayOfImages.length / visibleImages);
 	const maxScroll = Math.max(0, arrayOfImages.length - visibleImages);
 	const currentPage = Math.floor(curr / step);
@@ -35,7 +41,7 @@ export default function DentalClinicSection() {
 					style={{ transform: `translateX(-${curr * (100 / visibleImages)}%)` }}
 				>
 					{arrayOfImages.map((img) => (
-						<img key={img} src="office.jpg" alt="Office" />
+						<img key={img} src={img} alt={img} />
 					))}
 				</div>
 			</div>

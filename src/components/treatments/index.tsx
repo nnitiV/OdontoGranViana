@@ -4,12 +4,12 @@ import styles from "./index.module.css";
 export default function Treatments() {
 	const treatments = [
 		{
-			title: "A Beleza de um <br /> Sorriso Transformado",
+			title: "A Beleza de um Sorriso Transformado",
 			description:
 				"Imagine recuperar a confiança para sorrir livremente em qualquer ocasião! Nossas lentes de resina personalizadas corrigem imperfeições, fecham espaços e claream dentes em apenas 2-3 visitas. Resultados imediatos com aparência 100% natural - seu sorriso dos sonhos está mais próximo do que imagina!",
 		},
 		{
-			title: "Limpeza Dental <br /> Profunda",
+			title: "Limpeza Dental Profunda",
 			description:
 				"Sangramento gengival ou mau hálito constante? Nossa limpeza especializada remove tártaro invisível e manchas profundas, prevenindo cáries e doenças periodontais. Em 40 minutos, saia com a sensação refrescante de um sorriso renovado - essencial para saúde bucal e geral!",
 		},
@@ -19,12 +19,12 @@ export default function Treatments() {
 				"Dor ao mastigar ou sensibilidade extrema? Nosso tratamento endodôntico de última geração preserva seu dente natural com tecnologia indolor. Esqueça o mito da dor: com anestesia moderna e microscópio digital, você mantém seu sorriso completo sem extrações!",
 		},
 		{
-			title: "Harmonização <br /> Facial Natural",
+			title: "Harmonização Facial Natural",
 			description:
 				"Realce sua beleza única com proporções faciais equilibradas! Combinando toxina botulínica e preenchedores de ácido hialurônico, suavizamos rugas, definimos contornos e corrigimos assimetrias. Resultados progressivos e naturais em apenas 15 minutos - seu rosto mais harmonioso te espera!",
 		},
 		{
-			title: "Aparelhos <br /> Invisíveis",
+			title: "Aparelhos Invisíveis",
 			description:
 				"Alinhar os dentes sem comprometer sua estética! Nossos alinhadores transparentes corrigem mordidas e apinhamentos discretamente, removíveis para refeições e higienização. Monitore seu progresso 3D virtualmente - comece hoje sua jornada para o sorriso perfeitamente alinhado!",
 		},
@@ -34,7 +34,7 @@ export default function Treatments() {
 				"Sorriso amarelado por café ou cigarro? Nosso clareamento em consultório alcança até 10 tons a mais de branco em 1 hora, com proteção total contra sensibilidade. Combinado com tratamento domiciliar, mantemos seus resultados por anos - reviva o brilho do seu sorriso juvenil!",
 		},
 		{
-			title: "Odontopediatria <br /> Afetiva",
+			title: "Odontopediatria Afetiva",
 			description:
 				"Transforme a experiência dentária do seu filho! Nossa abordagem lúdica com técnicas de distração cria memórias positivas enquanto prevenimos cáries e monitoramos desenvolvimento. Presenteie-os com um sorriso saudável desde a infância - a melhor herança para sua saúde futura!",
 		},

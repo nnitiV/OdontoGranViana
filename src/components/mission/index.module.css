@@ -41,7 +41,6 @@
 
 
 .main p {
-    width: 23vw;
     color: #7F8186;
     text-transform: none;
     font-weight: bold;
@@ -50,27 +49,57 @@
 
 @media (max-width: 1400px) {
     .mission {
-        padding: 4rem 0;
-        width: 60vw;
-        margin-right: 22.5vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 6rem 0;
+    }
+
+    .mission img {
+        margin: initial;
+        width: 30vw;
     }
 
     .main {
+        width: 40vw;
         margin-top: 0;
     }
 
     .main h1 {
-        font-size: 2vw;
-        margin-bottom: 2rem;
+        font-size: 3vw;
+    }
+
+    .main hr {
+        width: 15vw;
+        margin: -1rem 0 1rem;
+        height: .25vh;
     }
 
     .main p {
-        width: fit-content;
-        font-size: 1.35vw;
+        font-size: 1.5vw;
+    }
+}
+
+@media (max-width: 992px) {
+    .mission {
+        width: 85%;
     }
 
     .mission img {
-        width: 30vw;
-        margin: 0;
+        margin: initial;
+        width: 42vw;
+    }
+
+    .main h1 {
+        font-size: 4vw;
+    }
+
+    .main hr {
+        width: 25vw;
+        height: .5vw;
+    }
+
+    .main p {
+        font-size: 2vw;
     }
 }

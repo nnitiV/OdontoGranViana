@@ -3,9 +3,18 @@ import styles from "./index.module.css";
 
 export default function TransformationsSection() {
 	const [curr, setCurr] = useState<number>(0);
-	const arrayOfImages = Array(10).fill(1);
-	const visibleImages = 2;
-	const step = 2;
+	const arrayOfImages = [
+		"lente_em_resina_1.png",
+		"lentes_em_resina_3.png",
+		"aparelho_invisivel_1.png",
+		"aparelho_ortodontico_1.png",
+		"lentes_em_resina_2.png",
+		"pe_de_galinha_1.png",
+		"preenchimento_labial_1.png",
+		"preenchimento_labial_2.png",
+	];
+	const visibleImages = window.innerWidth <= 992 ? 1 : 2;
+	const step = window.innerWidth <= 992 ? 1 : 2;
 	const totalPages = Math.ceil(arrayOfImages.length / visibleImages);
 	const maxScroll = Math.max(0, arrayOfImages.length - visibleImages);
 	const currentPage = Math.floor(curr / step);
@@ -35,7 +44,7 @@ export default function TransformationsSection() {
 					style={{ transform: `translateX(-${curr * (100 / visibleImages)}%)` }}
 				>
 					{arrayOfImages.map((img) => (
-						<img key={img} src="lente_em_resina_1.png" alt="Office" />
+						<img key={img} src={img} alt={img} />
 					))}
 				</div>
 			</div>

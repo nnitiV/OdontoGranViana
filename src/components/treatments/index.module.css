@@ -10,22 +10,22 @@
 }
 
 .main h1 {
-    font-size: 2.5vw;
+    font-size: 2.75vw;
     margin-bottom: 0;
     color: #A89946;
     text-shadow: 0 0 8px #D8BD64;
 }
 
 .main hr {
-    width: 13vw;
-    background-color: #D8BD64;
+    width: 22vw;
+    background-color: #A89946;
     height: .5vh;
     border: none;
     margin-bottom: 3.81vw;
 }
 
 .treatmentsDiv {
-    width: 45vw;
+    width: 55vw;
     display: flex;
     background-color: #29434C;
     color: white;
@@ -36,7 +36,6 @@
 
 .treatmentsOptions {
     color: #A89946;
-    width: 14vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -46,7 +45,7 @@
 .treatmentsOptions h3 {
     margin: 0;
     padding: 1.5vw;
-    font-size: 1.25vw;
+    font-size: 1.4vw;
     transition: all .3s ease;
 }
 
@@ -61,17 +60,18 @@
 }
 
 .treatmentExplanation {
-    padding: 3vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
+    margin: 0 auto;
 }
 
 .treatmentExplanation h2 {
-    color: #FBA300;
-    font-size: 1.5vw;
+    color: #D8BD64;
+    width: fit-content;
+    font-size: 2.5vw;
     text-shadow: 0 0 8px rgba(25, 25, 25, 1);
 }
 
@@ -83,9 +83,10 @@
 .treatmentExplanation div p {
     text-align: justify;
     color: #E8EFF2;
-    width: 25vw;
-    margin: 5vw 0;
-    font-size: 1.1vw;
+    width: 70%;
+    text-align: center;
+    margin: 2vw 0 5vw;
+    font-size: 1.25vw;
     font-family: "Inria Serif", serif;
 }
 
@@ -107,4 +108,61 @@
     background-color: #A89946;
     cursor: pointer;
     color: white;
+}
+
+@media (max-width: 1200px) {
+    .main h1 {
+        font-size: 4vw;
+    }
+
+    .treatmentsDiv {
+        width: 65vw;
+        margin-left: -5vw;
+    }
+
+    .treatmentExplanation h2 {
+        width: 75%;
+    }
+
+    .treatmentExplanation div p {
+        width: 65%;
+    }
+
+    .treatmentExplanation button {
+        font-size: 1.5vw;
+        width: fit-content;
+        padding: 1rem 2rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .main h1 {
+        font-size: 5vw;
+    }
+
+    .treatmentsDiv {
+        width: 90vw;
+        margin: 0;
+    }
+
+    .treatmentsOptions {
+        width: 20vw;
+    }
+
+    .treatmentsOptions h3 {
+        font-size: 2vw;
+    }
+
+    .treatmentExplanation {
+        width: 60vw;
+        padding: 9vw 0;
+    }
+
+    .treatmentExplanation div p {
+        font-size: 2vw;
+    }
+
+    .treatmentExplanation button {
+        font-size: 2vw;
+    }
 }
