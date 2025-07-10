@@ -92,7 +92,6 @@ video:focus {
     }
 
     .video {
-        background-color: red;
         width: fit-content;
         margin-left: -6rem;
     }
