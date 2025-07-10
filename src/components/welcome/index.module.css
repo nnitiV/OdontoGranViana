@@ -36,6 +36,10 @@
     font-size: 1.1rem;
 }
 
+.video {
+    width: fit-content;
+}
+
 .video video {
     width: fit-content;
     border-radius: .5rem;
@@ -48,7 +52,7 @@
     box-shadow: 0 0 8px rgb(0, 0, 0);
 }
 
-.video video:focus {
+video:focus {
     outline: none;
     box-shadow: none;
 }
