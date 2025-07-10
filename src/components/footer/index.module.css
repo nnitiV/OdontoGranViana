@@ -21,7 +21,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 15vw;
+    height: 20vw;
 }
 
 .content div div {
@@ -73,7 +73,7 @@ img {
     }
 
     .footer .content img {
-        width: 50vw;
+        width: 60vw;
     }
 
     .footer .wrapper {
@@ -96,6 +96,6 @@ img {
     }
 
     .footer .wrapper div div, .footer .wrapper div div p {
-        margin: 2rem 0;
+        margin: 0 0 2rem;
     }
 }
