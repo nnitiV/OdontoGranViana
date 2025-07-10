@@ -11,6 +11,7 @@
 .main {
     height: 100%;
     width: 30vw;
+    margin-top: -6rem;
 }
 
 .main h2 {
