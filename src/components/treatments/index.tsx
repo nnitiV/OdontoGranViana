@@ -31,7 +31,7 @@ export default function Treatments() {
 		{
 			title: "Clareamento Dental <br /> Profissional",
 			description:
-				" Com zero sensibilidade, efetuamos sessões de dessensibilizantes!!!  O clareamento remove manchas e realça a cor natural dos dentes, deixando seu sorriso mais branco e brilhante. Pode ser feito no consultório, em casa com supervisão ou de forma combinada. Benefícios:<br /> ✔ Sorriso mais branco e radiante<br /> ✔ Aumento da autoestima e confiança<br /> ✔ Resultado rápido e seguro<br /> 🔥 Vantagens:<br /> ✔ Não desgasta os dentes<br /> ✔ Personalizado para você<br /> ✔ Rejuvenesce e valoriza seu sorriso<br /> A opção ideal para um sorriso bonito de forma prática e segura!",
+				" Com zero sensibilidade, efetuamos sessões de dessensibilizantes!!!  O clareamento remove manchas e realça a cor natural dos dentes, deixando seu sorriso mais branco e brilhante. Pode ser feito no consultório, em casa com supervisão ou de forma combinada. A opção ideal para um sorriso bonito de forma prática e segura!",
 		},
 		{
 			title: "Odontopediatria Afetiva",
@@ -101,7 +101,6 @@ export default function Treatments() {
 					<h2 dangerouslySetInnerHTML={{ __html: treatments[curr].title }} />
 					<div>
 						<p
-							className={`${curr == 5 && styles.clareamentoDental}`}
 							dangerouslySetInnerHTML={{ __html: treatments[curr].description }}
 						></p>
 					</div>
