@@ -34,7 +34,7 @@ export default function Treatments() {
 				" Com zero sensibilidade, efetuamos sessões de dessensibilizantes!!!  O clareamento remove manchas e realça a cor natural dos dentes, deixando seu sorriso mais branco e brilhante. Pode ser feito no consultório, em casa com supervisão ou de forma combinada. A opção ideal para um sorriso bonito de forma prática e segura!",
 		},
 		{
-			title: "Odontopediatria Afetiva",
+			title: "Implante dentário perfeito",
 			description:
 				"Volte a sorrir e mastigar com prazer e segurança com nossos implantes em porcelana, que são mais resistentes que o próprio dente!Nossa especialista renomada em implantodontia realizará o seu procedimento em vinte minutinhos sem dor e de forma totalmente segura!",
 		},
@@ -94,7 +94,7 @@ export default function Treatments() {
 						className={`${curr == 6 && styles.active}`}
 						onClick={() => setCurr(6)}
 					>
-						Odontopediatria
+						Implante dentário
 					</h3>
 				</div>
 				<div className={styles.treatmentExplanation}>
