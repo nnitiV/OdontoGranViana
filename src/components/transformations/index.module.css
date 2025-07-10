@@ -146,4 +146,9 @@
         width: 6.5vw;
         height: 6.5vw;
     }
+
+
+    .carousel .wrapper .treatmentTitle {
+        font-size: 4vw;
+    }
 }

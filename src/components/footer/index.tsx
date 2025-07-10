@@ -27,7 +27,14 @@ export default function Footer() {
 							<h2>
 								<i className="fa-solid fa-location-dot"></i>Endereço
 							</h2>
-							<p>Av. São Camilo, 899 - Granja Viana, Cotia - SP, 06709-150</p>
+							<p>
+								<a
+									href="https://maps.app.goo.gl/sZaB8fx7Xfz9sCzXA"
+									style={{ textDecoration: "none", color: "#5A666B" }}
+								>
+									Av. São Camilo, 899 - Granja Viana, Cotia - SP, 06709-150
+								</a>
+							</p>
 						</div>
 					</div>
 				</div>
