@@ -11,7 +11,7 @@ export default function Footer() {
 							<h2>
 								<i className="fa-solid fa-phone"></i>Telefone
 							</h2>
-							<p>+55 11 92018-3075</p>
+							<p>(11) 92018-3075</p>
 						</div>
 					</div>
 					<div>
@@ -19,7 +19,7 @@ export default function Footer() {
 							<h2>
 								<i className="fa-solid fa-envelope"></i>Email
 							</h2>
-							<p>odontogravianna@gmail.com</p>
+							<p>odontograviana@gmail.com</p>
 						</div>
 					</div>
 					<div>
