@@ -48,7 +48,7 @@ export default function TransformationsSection() {
 					style={{ transform: `translateX(-${curr * (100 / visibleImages)}%)` }}
 				>
 					{treatments.map((treatment) => (
-						<div>
+						<div className={styles.treatmentImageWrapepr}>
 							<img
 								key={treatment.title}
 								src={treatment.src}

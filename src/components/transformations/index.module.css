@@ -67,17 +67,26 @@
     margin: 0;
     flex: 0 0 20vw;
     width: 20vw;
-    margin-right: 5vw;
+    background-color: blue;
     border-radius: .25vw;
     box-shadow: 0 0 8px rgba(25, 25, 25, 0.5);
+}
+
+.carousel .wrapper .treatmentImageWrapepr {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 5vw;
+    align-items: center;
 }
 
 .carousel .wrapper .treatmentTitle {
     display: block;
     width: 100%;
-    color: white;
     text-align: center;
-    font-size: 4vw;
+    color: white;
+    font-size: 1.5vw;
     padding: 1rem 0;
     margin-top: -.1rem;
     background-color: rgb(61, 138, 125);
