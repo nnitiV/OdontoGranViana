@@ -138,15 +138,16 @@
 
     .carousel .wrapper img {
         width: 50vw;
-        margin-right: 0;
     }
 
+    .carousel .wrapper .treatmentImageWrapepr {
+        margin-right: 0;
+    }
 
     .controls .control {
         width: 6.5vw;
         height: 6.5vw;
     }
-
 
     .carousel .wrapper .treatmentTitle {
         font-size: 4vw;
