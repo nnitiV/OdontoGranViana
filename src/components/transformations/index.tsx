@@ -4,9 +4,9 @@ import styles from "./index.module.css";
 export default function TransformationsSection() {
 	const [curr, setCurr] = useState<number>(0);
 	const treatments = [
-		{ title: "Lente em Resina", src: "lente_em_resina_1.png" },
-		{ title: "Lente em Resina", src: "lentes_em_resina_2.png" },
-		{ title: "Lente em Resina", src: "lentes_em_resina_3.png" },
+		{ title: "Lentes em Resina", src: "lente_em_resina_1.png" },
+		{ title: "Lentes em Resina", src: "lentes_em_resina_2.png" },
+		{ title: "Lentes em Resina", src: "lentes_em_resina_3.png" },
 		{ title: "Aparelho Invisível", src: "aparelho_invisivel_1.png" },
 		{ title: "Aparelho Ortodôntico", src: "aparelho_ortodontico_1.png" },
 		{ title: "Pé de Galinha", src: "pe_de_galinha_1.png" },
