@@ -51,6 +51,7 @@
 }
 
 .carousel {
+    pointer-events: none;
     width: 50vw;
     margin-top: 4vw;
     overflow: auto;
@@ -69,6 +70,17 @@
     margin-right: 5vw;
     border-radius: .25vw;
     box-shadow: 0 0 8px rgba(25, 25, 25, 0.5);
+}
+
+.carousel .wrapper .treatmentTitle {
+    display: block;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 4vw;
+    padding: 1rem 0;
+    margin-top: -.1rem;
+    background-color: rgb(61, 138, 125);
 }
 
 .controls {
@@ -94,32 +106,35 @@
 
 @media (max-width: 992px) {
     .main h1 {
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
     .main hr {
-        width: 40vw;
+        width: 80vw;
     }
 
     .buttons {
+        width: 90%;
         margin-top: 15vw;
     }
 
+    .buttons button {
+        font-size: 10vw;
+        padding: 1.5vw 4.5vw;
+    }
+
     .carousel {
-        width: 40vw;
+        width: 50vw;
     }
 
     .carousel .wrapper img {
-        width: 35vw;
+        width: 50vw;
+        margin-right: 0;
     }
 
-    .buttons button {
-        font-size: 5vw;
-        padding: 1.5vw 3vw;
-    }
 
     .controls .control {
-        width: 3.5vw;
-        height: 3.5vw;
+        width: 6.5vw;
+        height: 6.5vw;
     }
 }

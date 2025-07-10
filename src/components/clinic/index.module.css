@@ -57,6 +57,7 @@
     overflow: auto;
     scrollbar-width: none;
     position: relative;
+    pointer-events: none;
 }
 
 .carousel .wrapper {
@@ -112,31 +113,34 @@
 
 @media (max-width: 992px) {
     .main h1 {
-        font-size: 5vw;
+        font-size: 7vw;
     }
 
-    .buttons {}
+    .main hr {
+        width: 40vw;
+    }
+
+    .buttons {
+        width: 95%;
+    }
 
     .buttons button {
-        font-size: 5vw;
-        padding: .75vw 2.1vw;
+        font-size: 10vw;
+        padding: .75vw 3.5vw;
     }
 
     .carousel {
-        width: 45vw;
+        width: 60vw;
+        margin-left: 3vw;
     }
 
     .carousel img {
-        flex: 0 0 40vw;
-        margin-right: 5vw;
-    }
-
-    .controls {
-        width: 50vw;
+        flex: 0 0 60vw;
+        margin-right: 0;
     }
 
     .controls .control {
-        width: 3.5vw;
-        height: 3.5vw;
+        width: 6.5vw;
+        height: 6.5vw;
     }
 }

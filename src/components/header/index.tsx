@@ -34,27 +34,31 @@ export default function Header() {
 			</button>
 			<div className={styles.sideMenu}>
 				<i className={`fa-solid fa-bars`} onClick={() => setIsActive(true)}></i>
-				<div
-					className={`${styles.wrapper} ${isActive && styles.active}`}
-					onClick={() => setIsActive(false)}
-				>
+				<div className={`${styles.wrapper} ${isActive && styles.active}`}>
 					<nav
 						className={`${styles.sideOptionsMenu} ${isActive && styles.active}`}
 					>
 						<ul>
-							<li>
+							<li onClick={() => setIsActive(false)}>
+								<img
+									src="close_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"
+									alt="close button"
+									className={styles.closeButton}
+								/>
+							</li>
+							<li onClick={() => setIsActive(false)}>
 								<a href="#sobre">Sobre</a>
 							</li>
-							<li>
+							<li onClick={() => setIsActive(false)}>
 								<a href="#tratamentos">Tratamentos</a>
 							</li>
-							<li>
+							<li onClick={() => setIsActive(false)}>
 								<a href="#clinica">Clínica</a>
 							</li>
-							<li>
+							<li onClick={() => setIsActive(false)}>
 								<a href="#transformacoes">Transformações</a>
 							</li>
-							<li>
+							<li onClick={() => setIsActive(false)}>
 								<a href="#depoimentos">Depoimentos</a>
 							</li>
 						</ul>

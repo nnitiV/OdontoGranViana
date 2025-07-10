@@ -8,11 +8,15 @@ import TransformationsSection from "./components/transformations";
 import Treatments from "./components/treatments";
 import WelcomeSection from "./components/welcome";
 import styles from "./index.module.css";
+import bgImg from "/office-horizontal.jpg";
 
 function App() {
 	return (
 		<>
-			<section className={`${styles.blueBg} ${styles.bgImg}`}>
+			<section
+				className={`${styles.blueBg} ${styles.bgImg}`}
+				style={{ backgroundImage: 'url("' + bgImg + '")' }}
+			>
 				<div className={styles.cover}>
 					<Header />
 					<AboutSection />

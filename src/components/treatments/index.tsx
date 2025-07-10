@@ -6,7 +6,7 @@ export default function Treatments() {
 		{
 			title: "A Beleza de um Sorriso Transformado",
 			description:
-				"Imagine recuperar a confiança para sorrir livremente em qualquer ocasião! Nossas lentes de resina personalizadas corrigem imperfeições, fecham espaços e claream dentes em apenas 2-3 visitas. Resultados imediatos com aparência 100% natural - seu sorriso dos sonhos está mais próximo do que imagina!",
+				" Se você tem espaço entre os dentes, se eles estão levemente desalinhados e você não quer usar aparelho, ou se eles são amarelados e até mesmo quebrados. Resolva tudo isso em um único dia, com as lentes em resina você terá um sorriso de milhões",
 		},
 		{
 			title: "Limpeza Dental Profunda",
@@ -16,7 +16,7 @@ export default function Treatments() {
 		{
 			title: "Tratamento de Canal <br /> sem Trauma",
 			description:
-				"Dor ao mastigar ou sensibilidade extrema? Nosso tratamento endodôntico de última geração preserva seu dente natural com tecnologia indolor. Esqueça o mito da dor: com anestesia moderna e microscópio digital, você mantém seu sorriso completo sem extrações!",
+				"Se a cárie no seu dente evoluiu e você precisa fazer um tratamento de canal, você está no lugar certo. Nossa especialista realizará o seu tratamento em sessão única, sem dor e sem medo, já que você estará relaxado ouvindo uma bela música com fones de ouvido que abafam qualquer barulho exterior!",
 		},
 		{
 			title: "Harmonização Facial Natural",
@@ -26,17 +26,17 @@ export default function Treatments() {
 		{
 			title: "Aparelhos Invisíveis",
 			description:
-				"Alinhar os dentes sem comprometer sua estética! Nossos alinhadores transparentes corrigem mordidas e apinhamentos discretamente, removíveis para refeições e higienização. Monitore seu progresso 3D virtualmente - comece hoje sua jornada para o sorriso perfeitamente alinhado!",
+				"Trabalhamos com previsibilidade de término de tratamento, nada de ficar três , quatro anos ou mais usando aparelho!!! Nossa especialista renomada em ortodontia escolherá o aparelho ideal a ser usado no seu caso. E na maioria das vezes finalizando em 18 meses á 24 meses de tratamento com resultados totalmente satisfatórios!!!",
 		},
 		{
 			title: "Clareamento Dental <br /> Profissional",
 			description:
-				"Sorriso amarelado por café ou cigarro? Nosso clareamento em consultório alcança até 10 tons a mais de branco em 1 hora, com proteção total contra sensibilidade. Combinado com tratamento domiciliar, mantemos seus resultados por anos - reviva o brilho do seu sorriso juvenil!",
+				" Com zero sensibilidade, efetuamos sessões de dessensibilizantes!!!  O clareamento remove manchas e realça a cor natural dos dentes, deixando seu sorriso mais branco e brilhante. Pode ser feito no consultório, em casa com supervisão ou de forma combinada. Benefícios:<br /> ✔ Sorriso mais branco e radiante<br /> ✔ Aumento da autoestima e confiança<br /> ✔ Resultado rápido e seguro<br /> 🔥 Vantagens:<br /> ✔ Não desgasta os dentes<br /> ✔ Personalizado para você<br /> ✔ Rejuvenesce e valoriza seu sorriso<br /> A opção ideal para um sorriso bonito de forma prática e segura!",
 		},
 		{
 			title: "Odontopediatria Afetiva",
 			description:
-				"Transforme a experiência dentária do seu filho! Nossa abordagem lúdica com técnicas de distração cria memórias positivas enquanto prevenimos cáries e monitoramos desenvolvimento. Presenteie-os com um sorriso saudável desde a infância - a melhor herança para sua saúde futura!",
+				"Volte a sorrir e mastigar com prazer e segurança com nossos implantes em porcelana, que são mais resistentes que o próprio dente!Nossa especialista renomada em implantodontia realizará o seu procedimento em vinte minutinhos sem dor e de forma totalmente segura!",
 		},
 	];
 
@@ -100,7 +100,10 @@ export default function Treatments() {
 				<div className={styles.treatmentExplanation}>
 					<h2 dangerouslySetInnerHTML={{ __html: treatments[curr].title }} />
 					<div>
-						<p>{treatments[curr].description}</p>
+						<p
+							className={`${curr == 5 && styles.clareamentoDental}`}
+							dangerouslySetInnerHTML={{ __html: treatments[curr].description }}
+						></p>
 					</div>
 					<button onClick={redirectToWhatsapp}>
 						AGENDE AGORA SUA CONSULTA

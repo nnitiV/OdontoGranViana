@@ -25,7 +25,7 @@ export default function Footer() {
 					<div>
 						<div>
 							<h2>
-								<i className="fa-solid fa-location-dot"></i>Email
+								<i className="fa-solid fa-location-dot"></i>Endereço
 							</h2>
 							<p>Av. São Camilo, 899 - Granja Viana, Cotia - SP, 06709-150</p>
 						</div>

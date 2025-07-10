@@ -153,22 +153,29 @@
     }
 
     .main {
-        width: 70%;
+        width: fit-content;
         margin-bottom: 3rem;
+    }
+
+    .main h2 {
+        font-size: 4vw;
     }
 
     .main h1 {
         width: fit-content;
         margin: 2rem auto;
+        font-size: 5.5vw;
     }
 
     .main hr {
+        width: 40vw;
         margin: -.5rem auto;
     }
 
     .main p {
-        width: 100%;
+        width: fit-content;
         text-align: center;
+        font-size: 3.5vw;
         margin-top: 1rem;
     }
 
@@ -178,78 +185,21 @@
         padding: 2rem 1rem;
     }
 
+    .agende h3 {
+        font-size: 4vw;
+    }
+
     .agende hr {
         width: 30%;
     }
 
     .agende button {
-        width: 70%;
+        width: 50vw;
         padding: 0.5rem;
-        font-size: 1.5rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .aboutSection {
-        margin-top: 3rem;
-        padding-bottom: 3rem;
-    }
-
-    .main {
-        width: 85%;
-    }
-
-    .main h1 {
-        font-size: 1.5rem;
-    }
-
-    .main p {
-        font-size: 0.95rem;
-    }
-
-    .agende {
-        width: 85%;
-        padding: 1.5rem 1rem;
-    }
-
-    .agende h3 {
-        font-size: 1.1rem;
-    }
-
-    .agende button {
-        font-size: 1.35rem;
-        width: 80%;
-    }
-}
-
-@media (max-width: 480px) {
-    .aboutSection {
-        margin-top: 2rem;
-    }
-
-    .main {
-        width: 95%;
-    }
-
-    .main h2 {
-        font-size: 1.1rem;
-    }
-
-    .main h1 {
-        font-size: 1.3rem;
-    }
-
-    .agende {
-        width: 95%;
-        padding: 1.2rem 0.8rem;
-    }
-
-    .agende button {
-        width: 90%;
-        font-size: 1rem;
+        font-size: 4vw;
     }
 
     .agende button i {
-        font-size: 1.5rem;
+        font-size: 3.75rem;
     }
 }

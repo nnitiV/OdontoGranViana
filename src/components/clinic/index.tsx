@@ -4,6 +4,7 @@ import styles from "./index.module.css";
 export default function DentalClinicSection() {
 	const [curr, setCurr] = useState<number>(0);
 	const arrayOfImages = [
+		"frontdesk.jpeg",
 		"waitingRoom.jpeg",
 		"hall.jpeg",
 		"office.jpeg",

@@ -1,7 +1,7 @@
 .footer {
     background: linear-gradient(90deg, rgba(233, 219, 142, 1), rgba(233, 219, 142, .85), rgba(233, 219, 142, .7), rgba(233, 219, 142, .85), rgba(233, 219, 142, 1));
-    padding: 8vw;
     height: fit-content;
+    padding: 5rem;
 }
 
 .content {
@@ -15,18 +15,16 @@
 img {
     width: 25vw;
     margin: 0;
-    margin-top: -5.5vw;
 }
 
 .content .wrapper {
-    height: 15vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 15vw;
 }
 
 .content div div {
-    height: 8vh;
     display: flex;
     justify-content: start;
 }
@@ -67,42 +65,37 @@ img {
     color: #5A666B;
 }
 
-@media (max-width: 995px) {
-
-    img {
-        width: 40vw;
-    }
-
-    .content {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .content .wrapper {
-        height: fit-content;
+@media (max-width: 992px) {
+    .footer .content {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .footer .content img {
+        width: 50vw;
+    }
+
+    .footer .wrapper {
+        display: flex;
+        align-items: center;
         text-align: center;
-        margin-top: 7vw;
-        margin-bottom: -5vw;
+        justify-content: center;
+        margin-top: 10vw;
+        height: fit-content;
     }
 
-    .content .wrapper div {
-        margin-bottom: 3vw !important;
-    }
 
-    .content .wrapper div div h2 {
+    .footer .wrapper div div h2, .footer .wrapper div div p {
+        font-size: 5vw;
         margin: 0 auto;
-        font-size: 2.5vw;
-        margin-bottom: 1vw;
     }
 
-    .content .wrapper div div h2 i {
-        font-size: 2.75vw;
+    .footer .wrapper div div i {
+        font-size: 5.5vw;
     }
 
-    .content .wrapper div div p {
-        font-size: 2vw;
+    .footer .wrapper div div, .footer .wrapper div div p {
+        margin: 2rem 0;
     }
 }

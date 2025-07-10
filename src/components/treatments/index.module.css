@@ -110,6 +110,11 @@
     color: white;
 }
 
+.treatmentExplanation .clareamentoDental {
+    margin-top: -1vw;
+    margin-bottom: 2vw;
+}
+
 @media (max-width: 1200px) {
     .main h1 {
         font-size: 4vw;
@@ -137,20 +142,25 @@
 
 @media (max-width: 992px) {
     .main h1 {
-        font-size: 5vw;
+        font-size: 7vw;
     }
 
     .treatmentsDiv {
-        width: 90vw;
+        width: 100vw;
         margin: 0;
     }
 
     .treatmentsOptions {
-        width: 20vw;
+        width: 30vw;
+        padding-left: .75rem;
     }
 
     .treatmentsOptions h3 {
-        font-size: 2vw;
+        font-size: 3.5vw;
+        height: 10vw;
+        display: flex;
+        justify-content: start;
+        align-items: center;
     }
 
     .treatmentExplanation {
@@ -158,11 +168,24 @@
         padding: 9vw 0;
     }
 
+    .treatmentExplanation h2 {
+        width: 100%;
+        font-size: 5vw;
+    }
+
     .treatmentExplanation div p {
-        font-size: 2vw;
+        width: fit-content;
+        font-size: 3vw;
     }
 
     .treatmentExplanation button {
-        font-size: 2vw;
+        font-size: 3.5vw;
+        width: fit-content;
+        padding: 1rem .5rem;
+    }
+
+    .treatmentExplanation .clareamentoDental {
+        margin-top: -1vw;
+        margin-bottom: 5vw;
     }
 }
