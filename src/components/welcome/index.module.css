@@ -87,6 +87,7 @@
     .video video {
         margin-top: 1rem;
         width: 50vw;
+        max-width: 50vw;
         height: 100vw;
     }
 }
