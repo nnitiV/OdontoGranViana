@@ -64,7 +64,7 @@ video:focus {
         align-items: center;
         text-align: center;
         width: fit-content;
-        margin: 0 auto;
+        padding: 0;
     }
 
     .main {
@@ -84,19 +84,16 @@ video:focus {
     .main hr {
         width: 50vw;
         height: 1vw;
-        margin: -1.5rem auto 2rem;
+        margin: -1.5vw auto 2rem;
     }
 
     .main p {
         display: none;
     }
 
-    .video {
-        width: fit-content;
-        margin-left: -6rem;
-    }
 
     .video video {
-        margin: 0;
+        margin-top: 1rem;
+        height: 100vw;
     }
 }
