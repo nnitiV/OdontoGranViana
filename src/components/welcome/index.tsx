@@ -20,8 +20,8 @@ export default function WelcomeSection() {
 				</p>
 			</div>
 			<div className={styles.video}>
-				<video controls playsInline loop autoPlay>
-					<source src={video} type="video/mp4" />
+				<video controls playsInline loop autoPlay preload="metadata">
+					<source src={`${video}#t=0.1`} type="video/mp4" />
 				</video>
 			</div>
 		</section>
