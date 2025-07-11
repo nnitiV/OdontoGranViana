@@ -9,7 +9,7 @@ export default function TransformationsSection() {
 		{ title: "Lentes em Resina", src: "lentes_em_resina_3.png" },
 		{ title: "Aparelho Invisível", src: "aparelho_invisivel_1.png" },
 		{ title: "Aparelho Ortodôntico", src: "aparelho_ortodontico_1.png" },
-		{ title: "Pé de Galinha", src: "pe_de_galinha_1.png" },
+		{ title: "Botox", src: "pe_de_galinha_1.png" },
 		{ title: "Preenchimento Labial", src: "preenchimento_labial_1.png" },
 		{ title: "Preenchimento Labial", src: "preenchimento_labial_2.png" },
 		{ title: "Clareamento Dental", src: "clareamento.jpg" },
