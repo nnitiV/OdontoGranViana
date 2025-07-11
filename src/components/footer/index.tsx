@@ -19,7 +19,14 @@ export default function Footer() {
 							<h2>
 								<i className="fa-regular fa-envelope"></i>Email
 							</h2>
-							<p>odontograviana@gmail.com</p>
+							<p>
+								<a
+									href="mailto:Odontogrannviana@gmail.com"
+									style={{ textDecoration: "none", color: "#5A666B" }}
+								>
+									Odontogrannviana@gmail.com
+								</a>
+							</p>
 						</div>
 					</div>
 					<div>
