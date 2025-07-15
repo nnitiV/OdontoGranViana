@@ -1,0 +1,191 @@
+.treatmentsSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    position: relative;
+    z-index: 0;
+    padding: 4vw 0 8vw;
+}
+
+.main h1 {
+    font-size: 2.75vw;
+    margin-bottom: 0;
+    color: #A89946;
+    text-shadow: 0 0 8px #D8BD64;
+}
+
+.main hr {
+    width: 22vw;
+    background-color: #A89946;
+    height: .5vh;
+    border: none;
+    margin-bottom: 3.81vw;
+}
+
+.treatmentsDiv {
+    width: 55vw;
+    display: flex;
+    background-color: #29434C;
+    color: white;
+    padding: none;
+    overflow: hidden;
+    box-shadow: 0 0 8px rgba(25, 25, 25, 0.85);
+}
+
+.treatmentsOptions {
+    color: #A89946;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.treatmentsOptions h3 {
+    margin: 0;
+    padding: 1.5vw;
+    font-size: 1.4vw;
+    transition: all .3s ease;
+}
+
+.treatmentsOptions h3:hover {
+    background-color: #355c69;
+    cursor: pointer;
+}
+
+.treatmentsOptions .active {
+    color: white;
+    background-color: #355c69;
+}
+
+.treatmentExplanation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.treatmentExplanation h2 {
+    color: #D8BD64;
+    width: fit-content;
+    font-size: 2.5vw;
+    text-shadow: 0 0 8px rgba(25, 25, 25, 1);
+}
+
+.treatmentExplanation div {
+    display: flex;
+    justify-content: center;
+}
+
+.treatmentExplanation div p {
+    text-align: justify;
+    color: #E8EFF2;
+    width: 70%;
+    text-align: center;
+    margin: 2vw 0 5vw;
+    font-size: 1.25vw;
+    font-family: "Inria Serif", serif;
+}
+
+.treatmentExplanation button {
+    background-color: transparent;
+    border: transparent;
+    outline: transparent;
+    color: #A89946;
+    width: 20vw;
+    padding: 1vw .25vw;
+    font-size: 1vw;
+    border: 1px solid #A89946;
+    transition: ease .3s all;
+    font-weight: bold;
+    border-radius: .25vw;
+}
+
+.treatmentExplanation button:hover {
+    background-color: #A89946;
+    cursor: pointer;
+    color: white;
+}
+
+.treatmentExplanation .clareamentoDental {
+    margin-top: -1vw;
+    margin-bottom: 2vw;
+}
+
+@media (max-width: 1200px) {
+    .main h1 {
+        font-size: 4vw;
+    }
+
+    .treatmentsDiv {
+        width: 65vw;
+        margin-left: -5vw;
+    }
+
+    .treatmentExplanation h2 {
+        width: 75%;
+    }
+
+    .treatmentExplanation div p {
+        width: 65%;
+    }
+
+    .treatmentExplanation button {
+        font-size: 1.5vw;
+        width: fit-content;
+        padding: 1rem 2rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .main h1 {
+        font-size: 7vw;
+    }
+
+    .treatmentsDiv {
+        width: 100vw;
+        margin: 0;
+    }
+
+    .treatmentsOptions {
+        width: 30vw;
+        padding-left: .75rem;
+    }
+
+    .treatmentsOptions h3 {
+        font-size: 3.5vw;
+        height: 10vw;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .treatmentExplanation {
+        width: 60vw;
+        padding: 9vw 0;
+    }
+
+    .treatmentExplanation h2 {
+        width: 100%;
+        font-size: 5vw;
+    }
+
+    .treatmentExplanation div p {
+        width: fit-content;
+        font-size: 4vw;
+    }
+
+    .treatmentExplanation button {
+        font-size: 3.5vw;
+        width: fit-content;
+        padding: 1rem .5rem;
+    }
+
+    .treatmentExplanation .clareamentoDental {
+        margin-top: -1vw;
+        margin-bottom: 5vw;
+    }
+}

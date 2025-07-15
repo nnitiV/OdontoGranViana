@@ -1,0 +1,206 @@
+.aboutSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95vw;
+    margin: 6rem auto 0;
+    padding-bottom: 8rem;
+    text-transform: uppercase;
+}
+
+.main {
+    height: 100%;
+    width: 30vw;
+    margin-top: -6rem;
+}
+
+.main h2 {
+    color: #dbdad3;
+    font-size: 1.2rem;
+}
+
+.main hr {
+    width: 10vw;
+    margin: -.5rem 0;
+    height: .25vh;
+    border: none;
+    background-color: #D8BD64;
+}
+
+.main h1 {
+    font-size: 2rem;
+    color: #ecdc92;
+    text-shadow: 0 0 8px rgba(25, 25, 25, 0.85);
+}
+
+.main p {
+    width: 30vw;
+    color: #bbbdc4;
+    text-align: justify;
+    text-transform: none;
+    text-shadow: 0 0 8px rgba(25, 25, 25, 0.85);
+    margin-top: -.8rem;
+    font-weight: bold;
+}
+
+.agende {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 24vw;
+    height: 25vh;
+    border-radius: .25rem;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #29434C;
+    box-shadow: 0 0 8px rgba(25, 25, 25, 0.85);
+    color: #D8BD64;
+}
+
+.agende h3 {
+    text-shadow: 0 0 8px rgba(25, 25, 25, 0.85);
+}
+
+
+.agende hr {
+    width: 7vw;
+    height: .25vh;
+    border: none;
+    background-color: #D8BD64;
+    margin-top: -.25rem;
+    margin-bottom: 2.5rem;
+}
+
+.agende button {
+    background-color: #2CCD58;
+    border: none;
+    outline: none;
+    width: 18vw;
+    padding: 0 .25rem;
+    font-size: 1.4rem;
+    border-radius: .25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    transition: all .3s ease;
+    text-shadow: 0 0 8px rgba(25, 25, 25, 0.85);
+}
+
+.agende button i:hover, .agende button:hover {
+    background-color: #19d44b;
+    text-shadow: 0 0 8px rgba(194, 191, 191, 0.85);
+    cursor: pointer;
+}
+
+.agende button i {
+    margin-right: .9rem;
+    font-size: 2.25rem;
+    color: #04AB59;
+    text-shadow: none;
+}
+
+
+
+/* Responsive styles */
+@media (max-width: 1500px) {
+    .agende h3, .agende button {
+        font-size: 1.35rem;
+    }
+}
+
+@media (max-width: 1350px) {
+    .aboutSection {
+        width: 95vw;
+    }
+
+    .main h1 {
+        width: 35vw;
+    }
+
+    .main p {
+        width: 35vw;
+    }
+
+    .agende {
+        width: 30vw;
+        height: 20vw;
+    }
+
+
+    .agende hr {
+        width: 17vw;
+    }
+
+    .agende h3 {
+        font-size: 1.9vw;
+    }
+
+    .agende button {
+        width: 22vw;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .aboutSection {
+        width: 90vw;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 4rem;
+    }
+
+    .main {
+        width: fit-content;
+        margin-bottom: 3rem;
+    }
+
+    .main h2 {
+        font-size: 4vw;
+    }
+
+    .main h1 {
+        width: fit-content;
+        margin: 2rem auto;
+        font-size: 5.5vw;
+    }
+
+    .main hr {
+        width: 40vw;
+        margin: -.5rem auto;
+    }
+
+    .main p {
+        width: fit-content;
+        text-align: center;
+        font-size: 3.5vw;
+        margin-top: 1rem;
+    }
+
+    .agende {
+        width: 70%;
+        height: auto;
+        padding: 2rem 1rem;
+    }
+
+    .agende h3 {
+        font-size: 4vw;
+    }
+
+    .agende hr {
+        width: 30%;
+    }
+
+    .agende button {
+        width: 50vw;
+        padding: 0.5rem;
+        font-size: 4vw;
+    }
+
+    .agende button i {
+        font-size: 2.8rem;
+    }
+}
