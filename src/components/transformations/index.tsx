@@ -9,7 +9,7 @@ export default function TransformationsSection() {
 		{ title: "Lentes em Resina", src: "lentes_em_resina_3.png" },
 		{ title: "Aparelho Invisível", src: "aparelho_invisivel_1.png" },
 		{ title: "Aparelho Ortodôntico", src: "aparelho_ortodontico_1.png" },
-		{ title: "Toxina Botulínic", src: "pe_de_galinha_1.png" },
+		{ title: "Toxina Botulínica", src: "pe_de_galinha_1.png" },
 		{ title: "Preenchimento Labial", src: "preenchimento_labial_1.png" },
 		{ title: "Preenchimento Labial", src: "preenchimento_labial_2.png" },
 		{ title: "Clareamento Dental", src: "clareamento.jpg" },
@@ -63,9 +63,8 @@ export default function TransformationsSection() {
 				{Array.from({ length: totalPages }).map((_, index) => (
 					<div
 						key={index}
-						className={`${styles.control} ${
-							index === currentPage ? styles.active : ""
-						}`}
+						className={`${styles.control} ${index === currentPage ? styles.active : ""
+							}`}
 						onClick={() => setCurr(index * step)}
 					></div>
 				))}
