@@ -107,3 +107,24 @@ Para rodar o projeto localmente em sua máquina, siga os passos abaixo:
     ```
 
 5.  O projeto estará rodando em `http://localhost:5173` (ou porta similar indicada no terminal).
+
+---
+
+## 🏥 Informações da Clínica
+
+Caso queira visitar ou entrar em contato com a clínica representada neste projeto:
+
+* 📍 **Endereço:** Av. São Camilo, 899 - Granja Viana, Cotia - SP, 06709-150
+* 📞 **Telefone/WhatsApp:** (11) 92018-3075
+* 📧 **Email:** Odontogrannviana@gmail.com
+* 📸 **Instagram:** [@odonto_gran_viana](https://instagram.com/odonto_gran_viana)
+
+---
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+<div align="center">
+  <sub>Desenvolvido com 💙 por Vitor Augusto Elias Cunha</sub>
+</div>
