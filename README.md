@@ -1,69 +1,109 @@
-# React + TypeScript + Vite
+# 🦷 Odonto Gran Viana - Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
 
-Currently, two official plugins are available:
+  ![Status do Projeto](https://img.shields.io/badge/STATUS-CONCLUÍDO-green?style=for-the-badge)
+  ![Tech Stack](https://img.shields.io/badge/REACT-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+  ![TypeScript](https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+  ![Vite](https://img.shields.io/badge/VITE-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  <p align="center">
+    Uma landing page moderna e de alta conversão desenvolvida para a clínica odontológica Odonto Gran Viana.
+    <br />
+    <a href="https://www.odontogranvianna.com"><strong>Visite o site oficial »</strong></a>
+  </p>
+</div>
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📖 Sobre o Projeto
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Este projeto é uma **Landing Page Institucional** desenvolvida para a clínica **Odonto Gran Viana**, localizada em Cotia/SP. O objetivo do site é apresentar a clínica, os tratamentos oferecidos, mostrar transformações de sorrisos e facilitar o contato de novos pacientes através de um design elegante, responsivo e focado na experiência do usuário.
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+A aplicação foi construída com foco em performance e SEO, utilizando as tecnologias mais modernas do ecossistema React.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## ✨ Funcionalidades e Seções
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+O site foi estruturado para guiar o visitante através de uma jornada de confiança:
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+* **Hero Section Impactante:** Botão de "Agendar agora" com destaque para a política de atendimento (foco em particular).
+* **Sobre a Clínica & Missão:** Apresentação do ambiente acolhedor, tecnologias exclusivas (sedação consciente, odontologia digital) e a missão da equipe.
+* **Galeria de Tratamentos:** Seção interativa detalhando serviços como:
+    * Lentes em resina
+    * Limpeza Dental
+    * Tratamento de Canal
+    * Harmonização Facial
+    * Implantes e Clareamento
+* **Antes e Depois (Carrossel):** Demonstração visual das transformações de sorrisos (Lentes em Resina).
+* **Tour Virtual (Fotos):** Carrossel mostrando a recepção, consultórios e infraestrutura moderna.
+* **Prova Social:** Seção de depoimentos de pacientes reais (ex: Randal Silva, Ingrid Prado).
+* **Rodapé Completo:** Informações de contato rápido, endereço e redes sociais.
+
+---
+
+## 🎨 Layout e Design
+
+O design segue uma paleta de cores sofisticada (tons de azul petróleo, dourado e branco), transmitindo seriedade e elegância.
+
+<div align="center">
+  <img width="45%" alt="herosection" src="https://github.com/user-attachments/assets/cca45c86-3727-45a1-a4f7-68f6b6da9357" />
+  <img width="45%" alt="herosection" src="https://github.com/user-attachments/assets/b093c031-4f0a-46cc-8033-98d0912de443" />
+</div>
+<br/>
+<div align="center">
+   <img width="45%" alt="sobrenós" src="https://github.com/user-attachments/assets/8748ae60-bb22-4da9-bddb-e44202f4604b" />
+   <img width="45%" alt="herosection" src="https://github.com/user-attachments/assets/369f7673-5426-45e0-80ce-4abb5d7ba99a" />
+</div>
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+* **[React](https://reactjs.org/):** Biblioteca principal para construção da interface.
+* **[TypeScript](https://www.typescriptlang.org/):** Para tipagem estática e código mais seguro.
+* **[Vite](https://vitejs.dev/):** Build tool para desenvolvimento rápido e otimizado.
+* **[CSS Modules / Styled Components]:** (Assumido com base no design limpo) Para estilização responsiva.
+* **[ESLint](https://eslint.org/):** Para padronização de código.
+
+---
+
+## 🚀 Como Rodar o Projeto
+
+Para rodar o projeto localmente em sua máquina, siga os passos abaixo:
+
+### Pré-requisitos
+
+* [Node.js](https://nodejs.org/en/) instalado (versão 16 ou superior recomendada).
+* Gerenciador de pacotes (NPM ou Yarn).
+
+### Instalação
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/seu-usuario/OdontoGranViana.git](https://github.com/seu-usuario/OdontoGranViana.git)
+    ```
+
+2.  **Acesse a pasta do projeto:**
+    ```bash
+    cd OdontoGranViana
+    ```
+
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    # ou
+    yarn install
+    ```
+
+4.  **Execute o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    # ou
+    yarn dev
+    ```
+
+5.  O projeto estará rodando em `http://localhost:5173` (ou porta similar indicada no terminal).
